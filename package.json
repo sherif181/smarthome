@@ -6,11 +6,14 @@
   "scripts": {
     "test": "node node_modules/ts-mocha/bin/ts-mocha test/*.ts -w --watch-files  **/*.ts ",
     "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server --mode development",
-    "build" : "node node_modules/webpack/bin/webpack.js --mode production"
+    "build": "node node_modules/webpack/bin/webpack.js --mode production"
   },
   "author": "",
   "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
     "ts-loader": "^9.5.0",
+    "ts-mocha": "^10.0.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
